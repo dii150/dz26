@@ -1,0 +1,32 @@
+* {
+    font-family: Montserrat, sans-serif;
+    color: #f1f5f2;
+    text-align: center;
+    font-weight: 500;
+}
+
+hr {
+    border: 1px dashed #f1f5f2;
+}
+
+body {
+    background: #c2a878;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    outline: none;
+    color: black;
+}
+
+span {
+    color: #355834;
+    min-width: 20px;
+}
+
+button {
+    height: 35px;
+    width: 130px;
+    color: black;
+}

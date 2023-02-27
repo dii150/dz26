@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+<!--sum-->
+<p>Сума 0.1 і 0.2 дорівнює <span id="firstAdd"></span></p>
+<hr>
+<p>Сума '1' та 2 дорівнює <span id="secondAdd"></span></p>
+<hr>
+
+<!--Pererahuvaty v megabayty-->
+<p>Введи обсяг флешки в Гб, а я перерахую тобі в Мб</p>
+<input id="inputGb" placeholder="Вводь тут гігі" type="number">
+<button onclick="getData()">Порахувати</button>
+
+<p>Вітаю, в тебе на флешці аж ><span id="dataRes"></span>< мегабайтиків. Це значить, що на флешку вміститься аж
+    ><span id="dataResDivision"></span><
+    файлів, розміром 820Мб</p>
+<hr>
+
+
+<!--Chocoladki-->
+<p>Напиши скільки в тебе є грошей, а потім ціну на шоколадки</p>
+<input id="inputChoco" placeholder="Пиши скікі в тебе мані" type="number">
+<input id="inputPrice" placeholder="Скікі нині чоколядки коштують" type="number">
+<button onclick="getChocolate()">Порахувати</button>
+<p>З такою шаленою сумою ти можеш собі дозволити ><span id="chocoResult"></span>< чоколядок і навіть залишиться
+    ><span id="reshta"></span>< гривень</p>
+<hr>
+
+
+<!--Chislo-->
+<p>Напиши тризначне число</p>
+<input id="number" type="number">
+<button onclick="reverseNumber()">Переверни!!!</button>
+<p>Ось що вийшло: <span id="numberResult"></span></p>
+<hr>
+
+
+<!--Vklad-->
+<p>Напиши суму вкладу на 2 місяці (процентна ставка - 5%)</p>
+<input id="amount" type="number">
+<button onclick="vklad()">Порахувати</button>
+<p> За два місяці ти отримаєш: <span id="result"></span></p>
+<hr>
+
+
+<!--Vyraz-->
+<p>Вираз 2 && 0 && 3 поверне ось це: <span id="firstVyraz"></span></p>
+<p>Вираз 2 || 0 || 3 поверне ось це: <span id="secondVyraz"></span></p>
+<p>Вираз 2 && 0 || 3 поверне ось це: <span id="thirdVyraz"></span></p>
+
+
+<script async src="js.js"></script>
+
+</body>
+</html>
